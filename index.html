@@ -15,15 +15,15 @@
                 'seat3',
                 'seat4'
             ],
-            turnOn = function () {
+            turnOn = function() {
                 this.engineTurnedOn = true;
             },
-            fly = function () {
+            fly = function() {
                 alert("This car cannot fly.");
             },
-            switchCar = function (isOn) {
+            switchCar = function(isOn) {
                 console.log('turn car ' + isOn);
-                if (isOn == true) {
+                if(isOn == true) {
                     this.isTurnedOn = true;
                 } else {
                     this.isTurnedOn = false;
